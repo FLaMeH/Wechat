@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\User;
+namespace Flameh\Wechat\User;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
 use Doctrine\Common\Collections\ArrayCollection;
 
 class Group
@@ -17,7 +17,7 @@ class Group
     const BETCH_UPDATE_USER_GROUP = 'https://api.weixin.qq.com/cgi-bin/groups/members/batchupdate';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

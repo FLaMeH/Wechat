@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Card\Entity;
+namespace Flameh\Wechat\Card\Entity;
 
-use ISeeCoo\Wechat\Card\CardEntity;
+use Flameh\Wechat\Card\CardEntity;
 
 class Discount extends CardEntity
 {

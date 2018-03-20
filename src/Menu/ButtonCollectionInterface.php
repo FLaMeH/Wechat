@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\Menu;
+namespace Flameh\Wechat\Menu;
 
 interface ButtonCollectionInterface
 {

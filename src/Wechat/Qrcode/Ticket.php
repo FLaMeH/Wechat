@@ -1,10 +1,10 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat\Qrcode;
+namespace Flameh\Wechat\Wechat\Qrcode;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Bridge\CacheTrait;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Wechat\AccessToken;
 
 class Ticket
 {
@@ -26,7 +26,7 @@ class Ticket
     const QR_LIMIT_STR_SCENE = 'QR_LIMIT_STR_SCENE';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

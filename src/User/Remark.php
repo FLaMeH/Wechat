@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\User;
+namespace Flameh\Wechat\User;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
 
 class Remark
 {
@@ -13,7 +13,7 @@ class Remark
     const REMARK = 'https://api.weixin.qq.com/cgi-bin/user/info/updateremark';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

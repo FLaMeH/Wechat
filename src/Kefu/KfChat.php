@@ -1,9 +1,9 @@
 <?php
-namespace ISeeCoo\Wechat\Kefu;
+namespace Flameh\Wechat\Kefu;
 
-use ISeeCoo\Wechat\Wechat\AccessToken;
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Kefu\Entity;
+use Flameh\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Kefu\Entity;
 use think\Log;
 
 class KfChat extends KfBase
@@ -26,7 +26,7 @@ class KfChat extends KfBase
     const TYPING = 'https://api.weixin.qq.com/cgi-bin/message/custom/typing';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken
+     * Flameh\Wechat\Wechat\AccessToken
      */
     protected $accessToken;
 

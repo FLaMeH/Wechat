@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Event;
+namespace Flameh\Wechat\Event;
 
-use ISeeCoo\Wechat\Message\Entity;
-use ISeeCoo\Wechat\Bridge\XmlResponse;
+use Flameh\Wechat\Message\Entity;
+use Flameh\Wechat\Bridge\XmlResponse;
 use Doctrine\Common\Collections\ArrayCollection;
 
 abstract class Event extends ArrayCollection

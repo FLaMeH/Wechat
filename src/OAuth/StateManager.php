@@ -1,10 +1,10 @@
 <?php
 
-namespace ISeeCoo\Wechat\OAuth;
+namespace Flameh\Wechat\OAuth;
 
 class StateManager
 {
-    const SESSION_NAMESPACE = '_ISeeCoo_oauth_state';
+    const SESSION_NAMESPACE = '_Flameh_oauth_state';
 
     private $namespace;
     private $isSessionStarted = false;

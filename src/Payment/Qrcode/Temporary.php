@@ -1,13 +1,13 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Qrcode;
+namespace Flameh\Wechat\Payment\Qrcode;
 
-use ISeeCoo\Wechat\Payment\Unifiedorder;
+use Flameh\Wechat\Payment\Unifiedorder;
 
 class Temporary
 {
     /**
-     * ISeeCoo\Wechat\Payment\Unifiedorder.
+     * Flameh\Wechat\Payment\Unifiedorder.
      */
     protected $unifiedorder;
 

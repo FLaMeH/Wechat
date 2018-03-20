@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Event\Event\Audit;
+namespace Flameh\Wechat\Event\Event\Audit;
 
-use ISeeCoo\Wechat\Event\Event;
+use Flameh\Wechat\Event\Event;
 
 class MerchantAddstoreAuditInfo extends Event
 {

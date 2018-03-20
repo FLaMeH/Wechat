@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wechat\Media;
+namespace Flameh\Wechat\Media;
 
-use ISeeCoo\Wechat\Wechat\AccessToken;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
 use think\File;
 use think\Log;
 
@@ -25,7 +25,7 @@ class Media
     const ADD_IMG_URL = 'https://api.weixin.qq.com/cgi-bin/media/uploadimg';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken
+     * Flameh\Wechat\Wechat\AccessToken
      */
     protected $accessToken;
 

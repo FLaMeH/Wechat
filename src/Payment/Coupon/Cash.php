@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Coupon;
+namespace Flameh\Wechat\Payment\Coupon;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Http;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 

@@ -1,5 +1,5 @@
 <?php
-namespace ISeeCoo\Media\Resource;
+namespace Flameh\Media\Resource;
 
 class Article {
     protected $title;

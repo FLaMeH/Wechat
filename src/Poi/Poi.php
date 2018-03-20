@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wechat\Poi;
+namespace Flameh\Wechat\Poi;
 
-use ISeeCoo\Wechat\Wechat\AccessToken;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
 use think\Log;
 use Doctrine\Common\Collections\ArrayCollection;
 

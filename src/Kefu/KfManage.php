@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wechat\Kefu;
+namespace Flameh\Wechat\Kefu;
 
-use ISeeCoo\Wechat\Wechat\AccessToken;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
 use think\File;
 
 class KfManage extends KfBase
@@ -23,7 +23,7 @@ class KfManage extends KfBase
     const DELETE_KF = 'https://api.weixin.qq.com/customservice/kfaccount/del';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken
+     * Flameh\Wechat\Wechat\AccessToken
      */
     protected $accessToken;
 

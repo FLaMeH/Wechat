@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat;
+namespace Flameh\Wechat\Wechat;
 
-use ISeeCoo\Wechat\Bridge\CacheTrait;
-use ISeeCoo\Wechat\Wechat\Qrcode\Ticket;
+use Flameh\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Wechat\Qrcode\Ticket;
 
 class Qrcode
 {
@@ -18,7 +18,7 @@ class Qrcode
     const QRCODE_URL = 'https://mp.weixin.qq.com/cgi-bin/showqrcode';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

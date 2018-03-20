@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Message\Template;
+namespace Flameh\Wechat\Message\Template;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
 
 class Sender
 {
@@ -13,7 +13,7 @@ class Sender
     const SENDER = 'https://api.weixin.qq.com/cgi-bin/message/template/send';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\Message\Template;
+namespace Flameh\Wechat\Message\Template;
 
 interface TemplateInterface
 {

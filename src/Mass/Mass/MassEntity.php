@@ -1,5 +1,5 @@
 <?php
-namespace ISeeCoo\Mass\Mass;
+namespace Flameh\Mass\Mass;
 
 
 abstract class MassEntity {

@@ -1,5 +1,5 @@
 <?php
-namespace ISeeCoo\Wechat\Card;
+namespace Flameh\Wechat\Card;
 
 abstract class CardEntity
 {

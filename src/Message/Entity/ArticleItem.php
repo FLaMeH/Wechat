@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Message\Entity;
+namespace Flameh\Wechat\Message\Entity;
 
-use ISeeCoo\Wechat\Message\Entity;
+use Flameh\Wechat\Message\Entity;
 
 class ArticleItem extends Entity
 {

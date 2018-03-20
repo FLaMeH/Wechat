@@ -1,10 +1,10 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat\Jsapi;
+namespace Flameh\Wechat\Wechat\Jsapi;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Bridge\CacheTrait;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Wechat\AccessToken;
 
 class Ticket
 {
@@ -19,7 +19,7 @@ class Ticket
     const JSAPI_TICKET = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

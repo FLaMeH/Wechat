@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat;
+namespace Flameh\Wechat\Wechat;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\CacheTrait;
 
 class ServerIp
 {
@@ -18,7 +18,7 @@ class ServerIp
     const SERVER_IP = 'https://api.weixin.qq.com/cgi-bin/getcallbackip';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

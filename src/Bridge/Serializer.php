@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\Bridge;
+namespace Flameh\Wechat\Bridge;
 
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;

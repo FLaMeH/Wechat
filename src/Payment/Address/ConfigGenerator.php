@@ -1,15 +1,15 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Address;
+namespace Flameh\Wechat\Payment\Address;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\Serializer;
-use ISeeCoo\Wechat\OAuth\AccessToken;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Serializer;
+use Flameh\Wechat\OAuth\AccessToken;
 
 class ConfigGenerator
 {
     /**
-     * ISeeCoo\Wechat\OAuth\AccessToken.
+     * Flameh\Wechat\OAuth\AccessToken.
      */
     protected $accessToken;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\OAuth;
+namespace Flameh\Wechat\OAuth;
 
 class Qrcode extends AbstractClient
 {

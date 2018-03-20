@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Jsapi;
+namespace Flameh\Wechat\Payment\Jsapi;
 
 class PayRequest extends ConfigGenerator
 {

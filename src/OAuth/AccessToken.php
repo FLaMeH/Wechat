@@ -1,8 +1,8 @@
 <?php
 
-namespace ISeeCoo\Wechat\OAuth;
+namespace Flameh\Wechat\OAuth;
 
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\Http;
 use Doctrine\Common\Collections\ArrayCollection;
 
 class AccessToken extends ArrayCollection

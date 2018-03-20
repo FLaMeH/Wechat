@@ -1,10 +1,10 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Jsapi;
+namespace Flameh\Wechat\Payment\Jsapi;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\Serializer;
-use ISeeCoo\Wechat\Payment\Unifiedorder;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Serializer;
+use Flameh\Wechat\Payment\Unifiedorder;
 use Doctrine\Common\Collections\ArrayCollection;
 
 abstract class ConfigGenerator extends ArrayCollection

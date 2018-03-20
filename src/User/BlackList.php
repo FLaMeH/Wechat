@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wecchat\User;
+namespace Flameh\Wecchat\User;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Wechat\AccessToken;
 
 /**
  * @author huang
@@ -18,7 +18,7 @@ class BlackList
     const BATCHUN = 'https://api.weixin.qq.com/cgi-bin/tags/members/batchunblacklist';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

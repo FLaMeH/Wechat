@@ -1,9 +1,9 @@
 <?php
-namespace ISeeCoo\Wechat\Media;
+namespace Flameh\Wechat\Media;
 
-use ISeeCoo\Media\Resource\ArticleList;
-use ISeeCoo\Wechat\Wechat\AccessToken;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Media\Resource\ArticleList;
+use Flameh\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Bridge\Http;
 
 /**
  * 永久素材
@@ -29,7 +29,7 @@ class Material
     const BATCH_GET_URL = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken
+     * Flameh\Wechat\Wechat\AccessToken
      */
     protected $accessToken;
 

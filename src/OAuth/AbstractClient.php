@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\OAuth;
+namespace Flameh\Wechat\OAuth;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Http;
 
 abstract class AbstractClient
 {

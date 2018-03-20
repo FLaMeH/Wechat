@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wechat\Kefu\Message;
+namespace Flameh\Wechat\Kefu\Message;
 
-use ISeeCoo\Wechat\Kefu\Entity;
-use ISeeCoo\Wechat\Kefu\Message\NewsItem;
+use Flameh\Wechat\Kefu\Entity;
+use Flameh\Wechat\Kefu\Message\NewsItem;
 use think\Log;
 
 class News extends Entity

@@ -1,6 +1,6 @@
 <?php
 
-namespace ISeeCoo\Wechat\Message;
+namespace Flameh\Wechat\Message;
 
 abstract class Entity
 {

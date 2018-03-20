@@ -1,5 +1,5 @@
 <?php
-namespace ISeeCoo\Wechat\Kefu;
+namespace Flameh\Wechat\Kefu;
 
 class KfBase
 {

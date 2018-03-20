@@ -1,11 +1,11 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Qrcode;
+namespace Flameh\Wechat\Payment\Qrcode;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\Serializer;
-use ISeeCoo\Wechat\Bridge\XmlResponse;
-use ISeeCoo\Wechat\Payment\Unifiedorder;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Serializer;
+use Flameh\Wechat\Bridge\XmlResponse;
+use Flameh\Wechat\Payment\Unifiedorder;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\Common\Collections\ArrayCollection;
 

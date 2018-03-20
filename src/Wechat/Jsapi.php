@@ -1,11 +1,11 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat;
+namespace Flameh\Wechat\Wechat;
 
-use ISeeCoo\Wechat\Bridge\Util;
-use ISeeCoo\Wechat\Bridge\CacheTrait;
-use ISeeCoo\Wechat\Bridge\Serializer;
-use ISeeCoo\Wechat\Wechat\Jsapi\Ticket;
+use Flameh\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Bridge\Serializer;
+use Flameh\Wechat\Wechat\Jsapi\Ticket;
 
 class Jsapi
 {
@@ -15,7 +15,7 @@ class Jsapi
     use CacheTrait;
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

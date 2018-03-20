@@ -1,9 +1,9 @@
 <?php
 
-namespace ISeeCoo\Wechat\Wechat;
+namespace Flameh\Wechat\Wechat;
 
-use ISeeCoo\Wechat\Bridge\Http;
-use ISeeCoo\Wechat\Bridge\CacheTrait;
+use Flameh\Wechat\Bridge\Http;
+use Flameh\Wechat\Bridge\CacheTrait;
 
 class ShortUrl
 {
@@ -18,7 +18,7 @@ class ShortUrl
     const SHORT_URL = 'https://api.weixin.qq.com/cgi-bin/shorturl';
 
     /**
-     * ISeeCoo\Wechat\Wechat\AccessToken.
+     * Flameh\Wechat\Wechat\AccessToken.
      */
     protected $accessToken;
 

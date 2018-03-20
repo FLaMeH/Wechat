@@ -1,8 +1,8 @@
 <?php
-namespace ISeeCoo\Wechat\Bridge;
+namespace Flameh\Wechat\Bridge;
 
 use GuzzleHttp\Client;
-use ISeeCoo\Wechat\Wechat\AccessToken;
+use Flameh\Wechat\Wechat\AccessToken;
 use Doctrine\Common\Collections\ArrayCollection;
 use think\Log;
 

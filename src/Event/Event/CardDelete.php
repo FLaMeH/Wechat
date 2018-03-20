@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Event\Event;
+namespace Flameh\Wechat\Event\Event;
 
-use ISeeCoo\Wechat\Event\Event;
+use Flameh\Wechat\Event\Event;
 /*
  * 删除卡卷
  */

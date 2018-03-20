@@ -1,8 +1,8 @@
 <?php
 
-namespace ISeeCoo\Wechat\Payment\Qrcode;
+namespace Flameh\Wechat\Payment\Qrcode;
 
-use ISeeCoo\Wechat\Bridge\Util;
+use Flameh\Wechat\Bridge\Util;
 use Doctrine\Common\Collections\ArrayCollection;
 
 class Forever extends ArrayCollection

@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Event\Event;
+namespace Flameh\Wechat\Event\Event;
 
-use ISeeCoo\Wechat\Event\Event;
+use Flameh\Wechat\Event\Event;
 
 /*
  * 用户从卡卷点击查看公众号进入会话(需要用户已经关注公众号)

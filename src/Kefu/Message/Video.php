@@ -1,7 +1,7 @@
 <?php
-namespace ISeeCoo\Wechat\Kefu\Message;
+namespace Flameh\Wechat\Kefu\Message;
 
-use ISeeCoo\Wechat\Kefu\Entity;
+use Flameh\Wechat\Kefu\Entity;
 
 class Video extends Entity
 {
